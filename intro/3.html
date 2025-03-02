@@ -27,6 +27,39 @@
     padding-right: 16px;
     transition: padding-top 1s, padding-bottom 1s, padding-left 1s, padding-right 1s;
   }
+  .d{
+    background-color: green;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border: none;
+    margin-top: 5px;
+    cursor: pointer;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25);
+  }
+  .d:active{
+    box-shadow: none;
+    margin-top: 2px;
+    margin-left: 2px;
+  }
+  .e{
+    background-color: green;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border: none;
+    margin-top: 5px;
+    cursor: pointer;
+    transition: padding-left 0.5s, padding-right 0.5s;
+  }
+  .e:hover{
+    padding-left: 15px;
+    padding-right: 15px;
+  }
 </style>
 
 <button class="button">Back</button>
@@ -39,7 +72,7 @@
 
 
 <button class="c">Stretch</button>
-<!-- <button id="b">Shadow</button>
-<button id="b">One</button>
-<button id="b">Two</button>
-<button id="b">Three</button> -->
+<button class="d">Shadow</button>
+<button class="e">One</button>
+<button class="e">Two</button>
+<button class="e">Three</button>
